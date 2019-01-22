@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Trebuchet Ms", Helvetica, sans-serif;	
+		
+}
+
+#conteiner{
+	width: 100%;
+	background: #fff url(../img/fundo.png)  top repeat-x ;
+}
+
+#estrutura{
+	width: 80%;
+	margin: 0 auto;
+	border:1px solid black;
+}
+
+#topo{
+
+	width: 100%;
+	height: 225px;background: url(../img/detalhe-topo.png) no-repeat top right;
+
+}
+
+#topo ul{
+	border: 2px solid black;
+	margin: 0 25%;
+	width: 50%;
+
+
+
+}
+
+#corpo #esquerda{
+	width: 20%;
+	height: 250px;
+	background-color: orange;
+	float: left;
+
+
+}
+
+#corpo #direita{
+	width: 75%;
+	height: 250px;
+	background-color: red;
+	float: right;
+}
