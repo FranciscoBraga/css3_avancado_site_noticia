@@ -20,6 +20,17 @@ body.fotos #navegacao a#fotos{
 	cursor: text;
 
 }
+
+img{
+	margin: 5px  0 2px 0;
+	width:98%;
+	border:2px solid #dfdfdf;
+}
+
+img.principal{
+	width: 97%;
+	border: 3px solid #dfdfdf; 
+}
 /*-----------------------------------------------*/
 
 #conteiner{
@@ -178,4 +189,24 @@ body.fotos #navegacao a#fotos{
 	color: #a1a1a1;
 	background:#f9f9f9 url(../img/marcador.png) no-repeat left center;
 	padding-left: 20px;
+}
+
+.texto h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	margin: 2px;
+	padding: 2px;
+	background: #b10333;
+	color: #fff;	
+}
+
+.texto h2{
+	margin-bottom: 5px;
+}
+.texto {
+	margin-bottom: 7px;
+}
+h3.entrevista{
+	background:#de003e;
 }
