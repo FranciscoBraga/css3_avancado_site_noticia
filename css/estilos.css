@@ -4,7 +4,7 @@
 }
 body{
 	font-family: "Trebuchet Ms", Helvetica, sans-serif;	
-		
+	font-size: 1em;	
 }
 ul{
 	margin: 0;
@@ -27,7 +27,7 @@ body.fotos #navegacao a#fotos{
 	background: #fff url(../img/fundo.png)  top repeat-x ;
 }
 #estrutura{
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 	padding-top: 10px;
 
@@ -51,8 +51,6 @@ body.fotos #navegacao a#fotos{
 
 	background: #b10333;
 	float: left;
-	
-
 }
 
 #topo ul li{
@@ -78,40 +76,43 @@ body.fotos #navegacao a#fotos{
 }
 
 #corpo{
-	background:#ccc;
-	border:1px solid blue;
 	float: right;
 }
 
-#direita{
-	background: yellow;
+#tres_colunas #direita,
+#duas_colunas #direita{
+
 	float: right;
 	width: 80%;
 }
 
-#esquerda{
-	background: red;
-
+#uma_colunas #direita{
+	width: 100%;
+}
+ 
+ #esquerda{
 	float: right;
 	width: 20%;
 }
-#lateral{
-	width: 100%;
-	background-color: orange;
-	float: left;
 
-}
-#primario{
-	width: 50%;
-	background-color: blue;
+#lateral, #news{
+	width: 95%;
 	float: left;
-	
 }
+#tres_colunas #primario{
+	width: 45%;
+	float: left;	
+}
+
+#duas_colunas #primario,
+#uma_colunas  #primario{
+	width: 100%;
+	float: left;	
+}
+
  #secundario{
-	width: 50%;
-	background-color: red;
-	float: left;
-	
+	width: 45%;
+	float: left;	
 }
 #rodape{
 	clear: both;
@@ -120,4 +121,61 @@ body.fotos #navegacao a#fotos{
 	margin: 0 auto;
 	color: #fff;
 	text-align: center;
+}
+
+.caixa{
+	margin: 10px 0;
+	font-size: 0.8em;
+	padding:3px ; 
+}
+
+.caixa h2{
+	background:#294c71;
+	color: #fff;
+	padding: 5px;
+
+}
+
+#news input{
+	cursor: pointer;
+	font-size: 0.9em;
+}
+#news input[type="text"]{
+	
+	display: block;
+	padding-bottom: 2px;
+	background-color: #fff;
+	width: 98%;
+	margin: 0 0 2px 0;
+	
+}
+
+#news input[type="submit"]{
+	border-radius: 3px;
+	padding: 3px ;
+	background-color: #b10333;
+	border:1px solid #b10333;
+	color: #fff;
+}
+
+#news input[type="submit"]:hover{
+	background-color: #ccc;
+	border:1px solid #ccc;
+	color: black;
+}
+
+#lateral ul a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 20px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+	color: #a1a1a1;
+	background:#f9f9f9 url(../img/marcador.png) no-repeat left center;
+	padding-left: 20px;
 }
